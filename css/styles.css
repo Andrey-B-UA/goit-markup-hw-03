@@ -1,0 +1,215 @@
+:root{
+--color-primary: #212121;
+--color-secondary: #757575;
+--color-background: #FFFFFF;
+--color-link: #2196F3;
+}
+.visually-hidden {
+position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
+}
+
+body{
+color: var(--color-primary);
+background-color:var(--color-background);
+font-family: "Roboto", sans-serif;
+letter-spacing: 0.03em;
+font-weight: 400;
+font-style: normal;
+}
+
+ul{
+list-style-type: none;
+}
+.nav .current{
+color:var(--color-link);
+}
+.web-title{
+font-size: 26px;
+font-weight: 700;
+font-style: normal;
+font-family: "Raleway"; 
+line-height: 1.15;
+color:var(--color-link);
+
+text-decoration: none
+}
+.studio{
+color: var(--color-primary);
+}
+
+.link-header {
+color: var(--color-primary);
+text-decoration: none;
+letter-spacing: 0.02em;
+line-height: 1.14;
+font-weight: 500;
+font-size: 14px;
+}
+.link-header:hover, .link-header:focus, .link-header:active {
+color: var(--color-link);
+}
+
+.link-header2{
+color: #757575;
+background-color: #FFFFFF;
+font-size: 14px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: 0.02em;
+}
+.link-header2 {
+text-decoration: none;
+}
+
+.link-header2:hover, .link-header2:focus, .link-header2:active {
+color: var(--color-link);
+}
+
+.hero {
+background-color: #2F303A;
+}
+.hero-title {
+font-size: 44px;
+background-color: #2F303A;
+color: #FFFFFF;
+line-height: 1.36;
+text-transform: uppercase;
+letter-spacing: 0.06em;
+font-weight: 900;
+}
+.section-advantages-description {
+color: #757575;
+background-color: var(--color-background);
+font-size: 14px;
+line-height: 1.7;
+}
+.primary-button {
+color: #FFFFFF;
+background-color: var(--color-link);
+font-size: 16px;
+border: 0;
+line-height: 1.9;
+cursor: pointer;
+}
+.primary-button:hover, .primary-button:focus{
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.section-advantages-title{
+color: var(--color-primary);
+background-color: var(--color-background);
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+
+.what-do-we-do {
+color: var(--color-primary);
+background-color: var(--color-background);
+font-size: 36px;
+line-height: 1.16;
+}
+.team {
+background-color: #F5F4FA;
+}
+.section-name {
+background-color: var(--color-background);
+}
+.section-team{
+color: var(--color-primary);
+background-color: var(--color-background);
+font-size: 36px;
+line-height: 1.16;
+}
+.section-team-name{
+color: var(--color-primary);
+background-color: var(--color-background);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.13;
+}
+.section-team-specialty{
+color: #757575;
+background-color:var(--color-background);
+font-size: 16px;
+line-height: 1.13;
+}
+.web-title-footer{
+font-size: 26px;
+font-weight: 700;
+font-style: normal;
+font-family: "Raleway"; sans-serif;
+color: var(--color-link);
+text-decoration: none;
+line-height: 1.17;
+}
+.studio2 {
+	color: #FFFFFF;
+}
+footer {
+background-color: #2F303A;
+}
+.link-footer-map{
+color: #FFFFFF;
+background-color: #2F303A;
+font-size: 14px;
+font-weight: 500;
+font-style: normal;
+text-decoration: none;
+line-height: 1.7;
+}
+.footer-href-map:hover, .link-footer-map:focus, .flink-footer-map:active{
+color: var(--color-link);
+}
+.link-footer{
+color: #757575;
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+text-decoration: none;
+line-height: 1.7;
+}
+.link-footer:hover, .link-footer:focus, .link-footer:active{
+color: var(--color-link);
+}
+
+.button-portfolio{
+color: var(--color-primary);
+background-color: #F5F4FA;
+font-weight: 500;
+font-size: 16px;
+border: 0;
+line-height: 1.6;
+letter-spacing: 0.03em;
+font-family: inherit;
+cursor: pointer;
+}
+.button-portfolio:hover, .button-portfolio:focus {
+	color: #FFFFFF;
+	background-color: var(--color-link);
+}
+.hero-portfolio {
+font-weight: 400;
+font-size: 16px;
+background-color: var(--color-background);
+color: var(--color-secondary);
+line-height: 1.88;
+letter-spacing: 0.03em;
+}
+.portfolio-title {
+font-size: 18px;
+background-color: var(--color-background);
+color: var(--color-primary);
+font-weight: 700;
+line-height: 2;
+letter-spacing: 0.06em;
+}
