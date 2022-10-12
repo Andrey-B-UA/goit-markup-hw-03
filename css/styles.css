@@ -59,6 +59,10 @@ section {
 	margin-right: auto;
 }
 
+.header .container{
+	display: flex;
+	justify-content: space-between;
+}
 /* header */
 .header {
 	display: flex;
@@ -86,8 +90,8 @@ section {
 	display: flex;
 	justify-content: space-between;
 	gap: 50px;
-	padding-left: 93px;
-	/* margin-left: auto; */
+	/* padding-left: 93px; */
+	margin-left: 93px;
 	}
 
 .header-menu2 {
@@ -95,7 +99,8 @@ section {
 	justify-content: space-between;
 	gap: 50px;
 	/* padding-left: 344px; */
-	margin-left: auto;
+	margin-left: 344px;
+	
 	}
 
 ul {
@@ -277,7 +282,7 @@ padding-bottom: 0px;
 	/* background-color: #F5F4FA; */
 	font-size: 36px;
 	line-height: 1.17;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	letter-spacing: 0.03em;
 	font-weight: 700;
 	margin-left: auto;
